@@ -1,0 +1,69 @@
+name: deploy
+run-name: build and deploy site
+
+on:
+  push:
+    branches:
+      - main
+
+  # run if user manually requests it
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# allow one concurrent deployment, but never cancel one mid-flight
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout branch contents
+        uses: actions/checkout@v4
+
+      - name: Install Ruby packages
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.1"
+          bundler-cache: true
+
+      - name: Get Pages url
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Set root url
+        run: |
+          printf "\n\nurl: ${{ steps.pages.outputs.origin }}" >> _config.yaml
+
+      - name: Build site
+        run: |
+          JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+
+      # the artifact is served verbatim, so Jekyll never runs over the built
+      # site a second time and _styles/ and _scripts/ survive. kept as cheap
+      # insurance in case this repo is ever switched back to branch deployment,
+      # where a second Jekyll pass would silently strip those folders.
+      - name: Make .nojekyll file
+        run: touch _site/.nojekyll
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
