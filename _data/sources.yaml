@@ -6,23 +6,23 @@
     link: https://www.ibric.org/bric/hanbitsa/treatise.do?mode=treatise-view&id=100172&authorId=34183#!/list
 
 - id: doi:10.1186/s13073-025-01513-w
-  image: https://media.springernature.com/full/springer-static/cover-hires/journal/13073
+  image: images/journals/genome-medicine.png
   description: "**한빛사 논문**"
   buttons:
   - type: link
     link: https://www.ibric.org/bric/hanbitsa/treatise.do?mode=treatise-view&id=98171&authorId=34183
 
 - id: doi:10.1186/s12920-024-02058-4
-  image: https://media.springernature.com/w120/springer-static/cover-hires/journal/12920
+  image: images/journals/bmc-med-genomics.png
   
 - id: doi:10.1172/jci.insight.176985
-  image: https://df6sxcketz7bb.cloudfront.net/volumes/10/4/10-4-cover.jpg
+  image: images/journals/jci-insight.jpg
 
 - id: doi:10.1038/s41525-024-00449-1
-  image: https://media.springernature.com/full/nature-cms/uploads/product/npjgenmed/header-d59e23e52ffacae5c9f83e58d6f5e610.svg
+  image: images/journals/npj-genom-med.svg
 
 - id: doi:10.1016/j.ajhg.2024.06.015
-  image: https://www.cell.com/cms/asset/4fe2b929-3462-498a-beb3-86658b9266b2/cov200h.gif
+  image: images/journals/ajhg.jpg
   buttons:
   - type: link
     link: https://www.docdocdoc.co.kr/news/articleView.html?idxno=3020192
@@ -34,30 +34,30 @@
   image: https://www.neurology.org/cms/asset/8e9f97b0-fb07-4245-b741-39c897b98388/nxg.2024.10.issue-2.cover.jpg
 
 - id: doi:10.1038/s12276-024-01172-8
-  image: https://media.springernature.com/full/nature-cms/uploads/product/emm/header-d8217f38d70a68088a50cb0998a1912d.svg
+  image: images/journals/exp-mol-med.svg
   description: "**한빛사 논문**"
   buttons:
   - type: link
     link: https://www.ibric.org/bric/hanbitsa/han-interview.do?mode=view&id=92659&authorId=34183
 
 - id: doi:10.1038/s41431-024-01542-w
-  image: https://media.springernature.com/w200/springer-static/cover-hires/journal/41431/32/2
+  image: images/journals/eur-j-hum-genet.png
 
 - id: doi:10.1002/mds.29275
   image: https://movementdisorders.onlinelibrary.wiley.com/cms/asset/c9b0ea53-325a-4e26-81a2-bf7887ebc6eb/mds.v38.2.cover.gif
 
 - id: doi:10.1097/TP.0000000000003660
-  image: https://images.journals.lww.com/transplantjournal/LargeRollover.00007890-202110000-00000.CV.jpeg
+  image: images/journals/transplantation.jpg
 
 - id: doi:10.1002/hep.31862
-  image: https://images.journals.lww.com/hep/LargeRollover.01515467-202110000-00000.CV.jpeg
+  image: images/journals/hepatology.jpg
   description: "**한빛사 논문**"
   buttons:
   - type: link
     link: https://www.ibric.org/bric/hanbitsa/treatise.do?mode=treatise-view&id=69394&authorId=34183
 
 - id: doi:10.1093/neuros/nyz470
-  image: https://images.journals.lww.com/neurosurgery/LargeRollover.00006123-202008000-00000.CV.jpeg
+  image: images/journals/neurosurgery.jpg
 
 - id: doi:10.1161/STROKEAHA.118.024293
   image: https://www.ahajournals.org/cms/asset/c9a1e6f6-7343-4efb-bc47-bd527a99a1a2/str.2019.50.issue-5.cover.jpg

@@ -51,7 +51,7 @@
   publisher: Genome Medicine
   date: '2025-08-06'
   link: https://doi.org/g9zr3f
-  image: https://media.springernature.com/full/springer-static/cover-hires/journal/13073
+  image: images/journals/genome-medicine.png
   description: "**\uD55C\uBE5B\uC0AC \uB17C\uBB38**"
   buttons:
   - type: link
@@ -75,7 +75,7 @@
   publisher: BMC Medical Genomics
   date: '2025-03-03'
   link: https://doi.org/g9zr3g
-  image: https://media.springernature.com/w120/springer-static/cover-hires/journal/12920
+  image: images/journals/bmc-med-genomics.png
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1172/jci.insight.176985
@@ -93,7 +93,7 @@
   publisher: JCI Insight
   date: '2025-02-24'
   link: https://doi.org/g9zr3c
-  image: https://df6sxcketz7bb.cloudfront.net/volumes/10/4/10-4-cover.jpg
+  image: images/journals/jci-insight.jpg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1038/s41525-024-00449-1
@@ -119,7 +119,7 @@
   publisher: npj Genomic Medicine
   date: '2024-11-28'
   link: https://doi.org/g9zr3h
-  image: https://media.springernature.com/full/nature-cms/uploads/product/npjgenmed/header-d59e23e52ffacae5c9f83e58d6f5e610.svg
+  image: images/journals/npj-genom-med.svg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.ajhg.2024.06.015
@@ -144,7 +144,7 @@
   publisher: The American Journal of Human Genetics
   date: '2024-08-01'
   link: https://doi.org/g9zr3k
-  image: https://www.cell.com/cms/asset/4fe2b929-3462-498a-beb3-86658b9266b2/cov200h.gif
+  image: images/journals/ajhg.jpg
   buttons:
   - type: link
     link: https://www.docdocdoc.co.kr/news/articleView.html?idxno=3020192
@@ -222,7 +222,7 @@
   publisher: Experimental &amp; Molecular Medicine
   date: '2024-03-01'
   link: https://doi.org/g9zr3x
-  image: https://media.springernature.com/full/nature-cms/uploads/product/emm/header-d8217f38d70a68088a50cb0998a1912d.svg
+  image: images/journals/exp-mol-med.svg
   description: "**\uD55C\uBE5B\uC0AC \uB17C\uBB38**"
   buttons:
   - type: link
@@ -245,7 +245,7 @@
   publisher: European Journal of Human Genetics
   date: '2024-02-02'
   link: https://doi.org/g9zr3q
-  image: https://media.springernature.com/w200/springer-static/cover-hires/journal/41431/32/2
+  image: images/journals/eur-j-hum-genet.png
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1002/mds.29275
@@ -289,7 +289,7 @@
   publisher: Transplantation
   date: '2021-10-01'
   link: https://doi.org/g669cs
-  image: https://images.journals.lww.com/transplantjournal/LargeRollover.00007890-202110000-00000.CV.jpeg
+  image: images/journals/transplantation.jpg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1002/hep.31862
@@ -312,7 +312,7 @@
   publisher: Hepatology
   date: '2021-07-29'
   link: https://doi.org/gmmnmj
-  image: https://images.journals.lww.com/hep/LargeRollover.01515467-202110000-00000.CV.jpeg
+  image: images/journals/hepatology.jpg
   description: "**\uD55C\uBE5B\uC0AC \uB17C\uBB38**"
   buttons:
   - type: link
@@ -335,7 +335,7 @@
   publisher: Neurosurgery
   date: '2019-11-22'
   link: https://doi.org/g3729m
-  image: https://images.journals.lww.com/neurosurgery/LargeRollover.00006123-202008000-00000.CV.jpeg
+  image: images/journals/neurosurgery.jpg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1161/STROKEAHA.118.024293
