@@ -11,7 +11,7 @@
 
 - title: ont-bedmaker
   group: tools
-  image: https://github.com/pgm-yoon-lab/ont-bedmaker/blob/main/images/ont-bedmaker-avatar.png
+  image: /images/ont-bedmaker.png
   link: https://github.com/pgm-yoon-lab/ont-bedmaker
   description: ont-bedmaker is a Bash tool that automatically generates a BED file for Oxford Nanopore adaptive sampling workflows.
   tags:
