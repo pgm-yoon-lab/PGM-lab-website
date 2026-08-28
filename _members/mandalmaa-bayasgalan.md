@@ -9,3 +9,5 @@ links:
 # Student Internship: 2026 Summer
 
 **Mandalmaa** is an undergraduate student at Yonsei University, majoring in Life Science and Biotechnology.
+
+She visited our lab as an intern during July–August, 2026.

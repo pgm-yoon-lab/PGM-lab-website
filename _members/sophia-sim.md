@@ -9,3 +9,5 @@ links:
 # Student Internship: 2026 Summer
 
 **Sophia** is a Pre-Med student at Johns Hopkins University, majoring in Molecular and Cellular Biology.
+
+She visited our lab as an intern during June–July, 2026.
