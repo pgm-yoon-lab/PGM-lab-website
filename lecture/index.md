@@ -16,6 +16,15 @@ nav:
   <div class="lec-year">2026</div>
 
   <div class="lec-item">
+    <div class="lec-date"><span class="lec-pill">2026-08-27</span></div>
+    <div class="lec-content">
+      <div class="lec-event"> 2026 대한진단유전학회 (KSGD) Clinical NGS Workshop </div>
+      <div class="lec-session"> Clinical NGS Workshop【 ADVANCED 】</div>
+      <div class="lec-talk">Characterizing the Challenging Pharmacogene CYP2D6 Using Nanopore Whole-genome Sequencing and Human Pangenome References</div>
+    </div>
+  </div>
+  
+  <div class="lec-item">
     <div class="lec-date"><span class="lec-pill">2026-07-16</span></div>
     <div class="lec-content">
       <div class="lec-event">Nanopore User Group Meeting</div>
@@ -102,6 +111,15 @@ nav:
     </div>
   </div>
 
+  <div class="lec-item">
+    <div class="lec-date"><span class="lec-pill">2025-08-29</span></div>
+    <div class="lec-content">
+      <div class="lec-event"> 2025 대한진단유전학회 (KSGD) Clinical NGS Workshop </div>
+      <div class="lec-session"> Clinical NGS Workshop【 ADVANCED 】</div>
+      <div class="lec-talk">When to Use Long-read Sequencing? Platform Selection and Strategies to Maximize Diagnostic Yield</div>
+    </div>
+  </div>
+  
   <div class="lec-item">
     <div class="lec-date"><span class="lec-pill">2025-06-12</span></div>
     <div class="lec-content">
